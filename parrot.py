@@ -1,6 +1,6 @@
 class Parrot():
   
-  def __init__(self, model_tag="prithivida/parrot_paraphraser_on_T5", use_gpu=False):
+  def __init__(self, model_tag="SEBIS/legal_t5_small_summ_it", use_gpu=False):
     from transformers import AutoTokenizer
     from transformers import AutoModelForSeq2SeqLM
     import pandas as pd
